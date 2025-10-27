@@ -1,0 +1,58 @@
+body {
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom right, purple, yellow);
+}
+
+.seperator {
+    background-color: #28282B;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.word.box {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
+
+.instruction {
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom right, purple, yellow) 1;
+    margin: 10px;
+}
+
+.add {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom right, purple, yellow);
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.add:hover {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom left, purple, yellow);
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05); 
+}
+
+#clipnote {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
