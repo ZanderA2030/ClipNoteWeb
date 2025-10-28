@@ -1,9 +1,23 @@
 body {
     height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, purple, yellow);
+    background-repeat: no-repeat;
     font-family: 'Nunito Sans', sans-serif;
     color: white;
     text-align: center;
-    background: linear-gradient(to bottom right, purple, yellow);
+}
+
+.nav {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block, center;
 }
 
 .seperator {
@@ -50,9 +64,15 @@ body {
     transform: scale(1.05); 
 }
 
+#clipnote-logo {
+    display: inline-block;
+    align-content: center;
+}
+
 #clipnote {
     display: inline-block;
     text-align: center;
     position: relative;
     top: -20px;
 }
+
