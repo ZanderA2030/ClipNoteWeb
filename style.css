@@ -38,6 +38,9 @@ img {
 }
 
 .instruction {
+    max-width: 800px;
+    min-width: 80vw;
+    height: auto;
     border-width: 5px;
     border-style: solid;
     border-image: linear-gradient(to bottom right, purple, yellow) 1;
